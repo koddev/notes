@@ -1,0 +1,28 @@
+TEMP
+docker container create --name temp -v dockerdisk2:/data busybox
+
+sudo /etc/init.d/xrdp start
+
+
+
+
+CONDA
+
+docker run -it -p 8888:8888 continuumio/anaconda3 /bin/bash -c "/opt/conda/bin/conda install jupyter -y --quiet && mkdir /opt/notebooks && /opt/conda/bin/jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=8888 --no-browser --allow-root"
+docker run -it -p 8888:8888 --mount source=dockerdisk1,target=/app condaimage:v3 /bin/bash 
+docker exec -it ceed70b2d45e /bin/bash -c "/opt/conda/bin/jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=8888 --no-browser --allow-root"
+
+MSSQL
+docker run --mount source=dockerdisk2,target=/var/opt/mssql/sqldata -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=sadocker321sA" -p 1433:1433 -d mcr.microsoft.com/mssql/server:2019-latest
+docker run -v /mnt/e/sqldata:/var/opt/mssql/sqldata -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=sadocker321sA" -p 1433:1433 -d mcr.microsoft.com/mssql/server:2019-latest
+ 
+  
+
+CLİCKHOUSE DOCKER
+
+docker run -d -p 18123:8123 -p19000:9000 \
+	-v $(realpath ./ch_data):/var/lib/clickhouse/ \
+	-v $(realpath ./ch_logs):/var/log/clickhouse-server/ \
+	--name some-clickhouse-server --ulimit nofile=262144:262144 clickhouse/clickhouse-server
+
+docker exec -it some-clickhouse-server clickhouse-client
