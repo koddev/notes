@@ -5,8 +5,8 @@
 - [freeCodeCamp](https://www.freecodecamp.org/learn/)
 - [Awesome Links](awesome.md) 
 - [roadmap](https://roadmap.sh/) 
-- c# langage newest features
-- c++ CMAKE
+- [c# version history](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history)
+- [vscode c++](https://code.visualstudio.com/docs/cpp/config-wsl)
 - React
 - Vs React
 
