@@ -1,9 +1,6 @@
-# Will U Read Me
-
-
-[Temp](temp.md)
  
-# READ Text
+ 
+# READING Text
 
 - [freeCodeCamp](https://www.freecodecamp.org/learn/)
 - [Awesome Links](awesome.md) 
@@ -22,3 +19,6 @@
 
 
 ## advanced
+
+
+[Temp](temp.md)
