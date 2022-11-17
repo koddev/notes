@@ -9,7 +9,7 @@
 - [vscode c++](https://code.visualstudio.com/docs/cpp/config-wsl)
 - React
 - Vs React
-- [Javascript Makale](https://onurdayibasi.com/javascript-ile-fonksiyonel-programlama/?fb03462f34c6)
+- [Javascript Article dayibasi](https://onurdayibasi.com/javascript-ile-fonksiyonel-programlama/?fb03462f34c6)
 
 
 
