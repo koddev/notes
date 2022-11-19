@@ -1,6 +1,6 @@
  
  
-# READING Text
+# Code Reading
 
 - [freeCodeCamp](https://www.freecodecamp.org/learn/)
 - [Awesome Links](awesome.md) 
@@ -11,7 +11,9 @@
 - Vs React
 - [Javascript Article dayibasi](https://onurdayibasi.com/javascript-ile-fonksiyonel-programlama/?fb03462f34c6)
 
+# ML Reading
 
+- [Ml Study Guide](https://github.com/AssemblyAI-Examples/ML-Study-Guide)
 
 # Algorithm Problems
 
