@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/mnt/e/code/git/notes/cpp/2/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/hellocmake.dir/main.cpp.o -c /mnt/e/code/git/notes/cpp/2/main.cpp",
+  "file": "/mnt/e/code/git/notes/cpp/2/main.cpp"
+}
+]
